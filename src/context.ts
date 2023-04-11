@@ -37,7 +37,7 @@ export async function getInputs(): Promise<Inputs> {
     tarball: core.getInput('tarball'),
     dockerfile: core.getInput('dockerfile'),
     severity: core.getInput('severity'),
-    severityThreshold: core.getInput('severity_threshold'),
+    severityThreshold: core.getInput('severity_threshold-TK'),
     annotations: core.getBooleanInput('annotations'),
     githubToken: core.getInput('github_token')
   };
